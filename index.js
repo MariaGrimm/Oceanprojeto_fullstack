@@ -3,7 +3,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 
 //const url = "mongodb://localhost:27017";
 
-const url: mongodb+srv://admin:<8Io6M6TPEhoc8nU0>@cluster0.hvwjwkd.mongodb.net/
+const url = "mongodb+srv://admin:8Io6M6TPEhoc8nU0@cluster0.hvwjwkd.mongodb.net/";
 const bancoDadosNome = "oceanprojeto_jornada_fullstack_1122_MariaMenezes";
 
 async function main() {
