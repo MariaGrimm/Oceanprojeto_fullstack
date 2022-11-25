@@ -3,8 +3,8 @@ const { MongoClient, ObjectId } = require("mongodb");
 
 //const url = "mongodb://localhost:27017";
 
-const url: mongodb+srv://admin:<8Io6M6TPEhoc8nU0>@cluster0.hvwjwkd.mongodb.net/
-const bancoDadosNome = "oceanprojeto_jornada_fullstack_1122_MariaMenezes";
+const url = "mongodb+srv://admin:8Io6M6TPEhoc8nU0@cluster0.hvwjwkd.mongodb.net";
+const bancoDadosNome = "ocean_jornada_fullstack_MariaMenezes";
 
 async function main() {
   console.log("Conectando ao banco de dados...");
@@ -105,7 +105,7 @@ async function main() {
   });
 
   app.listen(process.env.PORT || 3000, function () {
-    console.log("Servidor rodando em http://localhost:3000");
+    console.log("Servidor rodando em http://127.0.0.1:3000");
   });
 }
 
